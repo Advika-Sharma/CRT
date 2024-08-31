@@ -90,3 +90,12 @@ int main() {
 
     return 0;
 }
+
+
+//given array => sorted, rotated 
+//sorted , none 
+
+//{1,2,3,4,5,6}
+//{2,3,4,5,6,1}
+//{3,4,5,6,1,2}
+//{4,5,6,2,8}
