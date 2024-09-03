@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main() {
@@ -6,8 +7,5 @@ int main() {
     cin >> A >> B >> C >> D;
     
     unsigned long long result = (A % 100) * (B % 100) % 100 * (C % 100) % 100 * (D % 100) % 100;
-    
-    cout << result % 100 << endl;
-    
-    return 0;
+   cout << setw(2) << setfill('0') << result % 100 << endl;
 }
